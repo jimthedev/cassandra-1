@@ -2,7 +2,7 @@
 #
 # VERSION               1.0
 
-FROM centos:centos7
+FROM centos:centos6
 
 # Add source repositories
 ADD src/epel7.repo /etc/yum.repos.d/epel7.repo
