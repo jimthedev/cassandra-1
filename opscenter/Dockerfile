@@ -6,7 +6,7 @@ FROM centos:centos6
 
 # Add repo
 ADD src/datastax.repo /etc/yum.repos.d/datastax.repo
-ADD src/epel7.repo /etc/yum.repos.d/epel7.repo
+ADD src/epel6.repo /etc/yum.repos.d/epel6.repo
 
 # Install datastax OpsCenter and supervisor
 RUN yum install -y openssh-clients opscenter which hostname supervisor
