@@ -5,7 +5,7 @@
 FROM centos:centos6
 
 # Add source repositories
-ADD src/epel7.repo /etc/yum.repos.d/epel7.repo
+ADD src/epel6.repo /etc/yum.repos.d/epel6.repo
 ADD src/datastax.repo /etc/yum.repos.d/datastax.repo
 
 # Install Java, Install packages (sshd + supervisord + monitoring tools + cassandra)
